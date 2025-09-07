@@ -61,6 +61,14 @@ This task followed a supervised learning workflow using the provided split:
 
 ## 📂 Project Structure
 
+├── Churn_Simple_Linear_Regression.ipynb   # Google Colab Notebook with regression workflow  
+├── data/                                  # Folder containing dataset(s)  
+│   ├── churn-bigml-20.csv                 # Part 1 of churn dataset  
+│   └── churn-bigml-80.csv                 # Part 2 of churn dataset  
+├── README.md                              # Project documentation
+
+---
+
 ## 🔗 Links  
 - **Open in Google Colab**  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OcSpice/Sentiment-Dataset-EDA/blob/main/Churn_Simple_Linear_Regression.ipynb)  
