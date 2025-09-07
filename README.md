@@ -7,7 +7,7 @@ Simple Linear Regression on Telco Churn data: predicting day charges from call m
 
 ---
 
-## Overview  
+## 📌 Overview  
 This project is part of my **Data Analysis Internship at Codveda Technologies**.  
 
 I performed a **Simple Linear Regression** using the **Churn A (80%)** dataset to build the model and the **Churn B (20%)** dataset to evaluate it.  
@@ -36,6 +36,29 @@ This task followed a supervised learning workflow using the provided split:
 
 ---
 
+## 🔎 Steps in Analysis
+1. **Data Cleaning**  
+   - Handled missing values (Age, Cabin, Embarked).  
+   - Dropped irrelevant index columns.  
+   - Standardized categorical values for consistency.  
+
+2. **Survival Distribution**  
+   - Plotted how many passengers survived vs. not survived.  
+
+3. **Demographic Analysis**  
+   - Compared survival by gender and age groups.  
+
+4. **Socioeconomic Analysis**  
+   - Examined class (Pclass) and fare against survival rates.  
+
+5. **Embarkation Analysis**  
+   - Analyzed survival rates by port of embarkation (C, Q, S).  
+
+6. **Visualizations**  
+   - Used histograms, bar charts, and boxplots for clarity.
+
+---
+
 ## Results  
 
 ### Model Parameters  
@@ -52,10 +75,16 @@ This task followed a supervised learning workflow using the provided split:
 
 ---
 
-## Key Insights & Business Impact  
+## 📊 Key Insights  
 - **Linear Relationship:** Charges increase by ~0.17 per minute of usage.  
-- **Model Accuracy:** R² ≈ 1.0 and MSE ≈ 0 → nearly perfect predictions.  
-- **Business Value:** Validates billing transparency, enables accurate revenue forecasting, and supports predictable pricing strategies.  
+- **Model Accuracy:** R² ≈ 1.0 and MSE ≈ 0 → nearly perfect predictions.
+
+- **Intercept Analysis:** No hidden fixed charges (intercept negligible).
+
+---
+
+## 💼 Business Implications
+Validates billing transparency, enables accurate revenue forecasting, and supports predictable pricing strategies.  
 
 ---
 
