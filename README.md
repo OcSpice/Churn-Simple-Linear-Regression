@@ -1,2 +1,69 @@
 # Churn-Simple-Linear-Regression
 Simple Linear Regression on Telco Churn data: predicting day charges from call minutes with near-perfect accuracy, validating billing transparency, improving revenue forecasting, and supporting customer strategy.
+
+---
+
+# Level 2 Task 1 – Simple Linear Regression  
+
+---
+
+## Overview  
+This project is part of my **Data Analysis Internship at Codveda Technologies**.  
+
+I performed a **Simple Linear Regression** using the **Churn A (80%)** dataset to build the model and the **Churn B (20%)** dataset to evaluate it.  
+
+**Objective:** Predict **Total Day Charge** (dependent variable) from **Total Day Minutes** (independent variable).  
+
+---
+
+## Dataset  
+- **Churn A (80%)** → model building  
+- **Churn B (20%)** → model evaluation  
+
+Key Columns used:  
+- `Total day minutes` → Independent variable (X)  
+- `Total day charge` → Dependent variable (y)  
+
+---
+
+## Workflow  
+This task followed a supervised learning workflow using the provided split:  
+- **Churn A (80%)** → regression model building  
+- **Churn B (20%)** → model performance evaluation  
+- **Model fitting** → linear regression line between minutes and charges  
+- **Evaluation** → metrics (R², MSE)  
+- **Visualization & Interpretation** → scatterplot, regression line, residuals  
+
+---
+
+## Results  
+
+### Model Parameters  
+- **Intercept:** ~0.0006 (nearly zero, no hidden fixed charge)  
+- **Coefficient:** ~0.17 → each additional minute adds ~0.17 to the charge  
+
+### Model Evaluation  
+- **R² Score:** ≈ 1.0 → almost perfect fit  
+- **MSE:** ≈ 0 → negligible error  
+
+### Visualizations  
+- **Regression Plot:** Scatterplot of actual values with regression line fit  
+- **Residual Plot:** Residuals scattered randomly around zero → no systematic error  
+
+---
+
+## Key Insights & Business Impact  
+- **Linear Relationship:** Charges increase by ~0.17 per minute of usage.  
+- **Model Accuracy:** R² ≈ 1.0 and MSE ≈ 0 → nearly perfect predictions.  
+- **Business Value:** Validates billing transparency, enables accurate revenue forecasting, and supports predictable pricing strategies.  
+
+---
+
+## 📂 Project Structure
+
+## 🔗 Links  
+- **Open in Google Colab**  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OcSpice/Sentiment-Dataset-EDA/blob/main/Churn_Simple_Linear_Regression.ipynb)  
+
+- **LinkedIn Post:** Coming Soon  
+- **Video Walkthrough:** Coming Soon
