@@ -98,9 +98,10 @@ Validates billing transparency, enables accurate revenue forecasting, and suppor
 
 ---
 
-## 🔗 Links  
+## 🔗 Link  
+
 - **Open in Google Colab**  
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OcSpice/Sentiment-Dataset-EDA/blob/main/Churn_Simple_Linear_Regression.ipynb)  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OcSpice/Churn-Simple-Linear-Regression/blob/main/Churn_Simple_Linear_Regression.ipynb)
 
 - **LinkedIn Post:** Coming Soon  
 - **Video Walkthrough:** Coming Soon
